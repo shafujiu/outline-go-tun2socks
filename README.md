@@ -1,7 +1,7 @@
 # outline-go-tun2socks
 
 > [!WARNING]  
-> This repository is no longer being maintained. The tun2socks source is now maintained in the [outline-apps repository](https://github.com/Jigsaw-Code/outline-apps/tree/master).
+> This repository is no longer being maintained. The tun2socks source is now maintained in the [outline-apps repository](https://github.com/Jigsaw-Code/outline-apps/tree/master) and [Intra repository](https://github.com/Jigsaw-Code/Intra/tree/master/Android/app/src/go).
 
 Go package for building [go-tun2socks](https://github.com/eycorsican/go-tun2socks)-based clients for [Outline](https://getoutline.org) and [Intra](https://getintra.org) (now with support for [Choir](https://github.com/Jigsaw-Code/choir) metrics).  For macOS, iOS, and Android, the output is a library; for Linux and Windows it is a command-line executable.
 
