@@ -87,3 +87,10 @@ Build with:
 make clean && make intra
 ```
 This will create `build/intra/{tun2socks.aar,tun2socks-sources.jar}`
+
+## addtionly：
+
+需要本地安装go环境， 以及gomobile， 通常仅仅是安装了xcode 命令行工具还不够，还需要 配置完整的命令行工具
+
+- [ ] 修改名字
+- [x] 制作swift package 或 cocoapods 
