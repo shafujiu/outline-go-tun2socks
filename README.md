@@ -91,6 +91,11 @@ This will create `build/intra/{tun2socks.aar,tun2socks-sources.jar}`
 ## addtionly：
 
 需要本地安装go环境， 以及gomobile， 通常仅仅是安装了xcode 命令行工具还不够，还需要 配置完整的命令行工具
+安装好go环境之后，直接跑 make clean && make apple； makefile 会帮我们安装gomobile环境
 
-- [ ] 修改名字
+### 如何修改Tun2socks.xcframework 的名字？
+
+讲 Makefile 文件中的Tun2socks.xcframework 替换为你想要的名字 eg： MyAppTun2socks.xcframework
+重新再跑命令打包即可
+
 - [x] 制作swift package 或 cocoapods 
